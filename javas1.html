@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript1</title>
+    <script>
+        function fun() {
+            document.write("Hello!How are you?");
+        }
+    </script>
+    <script src="file.js"></script>
+</head>
+
+<body>
+    <p>Javscript within the body of html </p>
+    <script>
+        document.write("Hello");
+    </script>
+    <p>Javascript within head tag of html</p>
+    <input type="button" onclick="fun()" value="namaste">
+    <p>javascript external</p>
+    <input type="button" onclick="fun1()" value="head">
+    <p>using javascript with innerHTML</p>
+    <p id="one"></p>
+    <p>USing console.log</p>
+    <p>using alert</p>
+    <script>
+        function al() {
+            alert("Hellooo");
+        }
+    </script>
+    <input type="button" onclick="al()" value="click here!">
+</body>
+<script>
+    document.getElementById("one").innerHTML = "Hope you're doing fine enough!";
+</script>
+
+</html>

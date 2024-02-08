@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try-catch</title>
+</head>
+<body>
+    <script>
+        let a= prompt("Enter first number: ");
+        let b= prompt("Enter second number: ");
+       function fun(a,b){
+        try{
+            if(a!=null && b!=null)
+            console.log(Number(a)+Number(b));
+            else throw "You cannot give empty inputs!";
+        }
+        catch(e){
+        console.log(e);
+        }
+
+    }
+    fun(a,b);
+    </script>
+</body>
+</html>
